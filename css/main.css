@@ -87,6 +87,207 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+html {
+
+}
+
+body {
+
+}
+
+main {
+
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+p {
+
+}
+
+img {
+
+}
+
+
+/* ---------- Base Header, Footer Styles --------- */
+
+header, footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+header, footer .content-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header-divider {
+
+}
+
+header nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-flow: row wrap;
+}
+
+header nav ul {
+}
+
+header nav ul li {
+}
+
+footer .footer-content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column wrap;
+}
+
+address .contact {
+}
+
+div .social {
+}
+
+div .social-icons {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+div .social-icons p {
+}
+
+div .copyright {
+}
+
+
+/* ---------- Mobile - Home page --------- */
+
+section .hero-area {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+}
+
+main .content-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column wrap;
+}
+
+aside .form-description {
+
+}
+
+aside .form {
+}
+
+aside .email-input {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column wrap;
+}
+
+section .amenities {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column wrap;
+}
+
+article .amenities-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column wrap;
+}
+
+p .amenities-icon {
+
+}
+
+p .amenities-description {
+
+}
+
+section .reviews {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+div .company-review {
+
+}
+
+/* ---------- Mobile - About page --------- */
+
+section .mission {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+div .mission-content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column wrap;
+}
+
+section .map {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+section .content-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+div .contact-general {
+
+}
+
+div .contact-facilitator {
+
+}
+
+/* ---------- Mobile - FAQ page --------- */
+
+section .faq {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+div  .faq-content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
