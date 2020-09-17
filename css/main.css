@@ -87,37 +87,6 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-html {
-
-}
-
-body {
-
-}
-
-main {
-
-}
-
-h1 {
-
-}
-
-h2 {
-
-}
-
-h3 {
-
-}
-
-p {
-
-}
-
-img {
-
-}
 
 
 /* ---------- Base Header, Footer Styles --------- */
@@ -126,16 +95,11 @@ header, footer {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+  flex-flow: row wrap;
 }
 
-header, footer .content-wrapper {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.header-divider {
-
+header .content-wrapper {
+  display: inherit;
 }
 
 header nav {
@@ -146,146 +110,95 @@ header nav {
 }
 
 header nav ul {
+  display: flex;
+  justify-content: space-around;
 }
 
-header nav ul li {
+footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-footer .footer-content {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: column wrap;
-}
-
-address .contact {
-}
-
-div .social {
-}
-
-div .social-icons {
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-}
-
-div .social-icons p {
-}
-
-div .copyright {
+footer .social-icons p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
 /* ---------- Mobile - Home page --------- */
 
-section .hero-area {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: row wrap;
+/* Hero Area */
+
+.hero-area {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
 }
 
-main .content-wrapper {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: column wrap;
+/* Aside */
+
+aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
-aside .form-description {
+/* Features */
 
+.features {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
 }
 
-aside .form {
+.features .features-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
-aside .email-input {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: column wrap;
+/* Reviews */
+
+.reviews {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
 }
 
-section .amenities {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: column wrap;
-}
-
-article .amenities-wrapper {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: column wrap;
-}
-
-p .amenities-icon {
-
-}
-
-p .amenities-description {
-
-}
-
-section .reviews {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-div .company-review {
-
-}
 
 /* ---------- Mobile - About page --------- */
 
-section .mission {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+.mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
-div .mission-content {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: column wrap;
-}
-
-section .map {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-section .content-section {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-div .contact-general {
-
-}
-
-div .contact-facilitator {
-
+.contact-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 /* ---------- Mobile - FAQ page --------- */
-
-section .faq {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+.faq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
-div  .faq-content {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+.faq .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 /* ==========================================================================
