@@ -321,6 +321,29 @@ aside .form {
   align-items: left;
   flex-flow: column wrap;
   width: 100%;
+  margin-top: 30px;
+}
+ 
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+}
+ 
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 input {
@@ -384,6 +407,7 @@ input {
   width: 100%;
   padding-top: 55px;
   padding-bottom: 45px;
+  background-color: #2a423a;
 }
 
 .reviews h2 {
@@ -407,6 +431,7 @@ input {
   align-items: center;
   flex-flow: row wrap;
   padding: 50px 0px;
+  background: #527158;
 }
 
 .mission .content-wrapper {
@@ -434,6 +459,7 @@ figure {
   align-items: center;
   flex-flow: row wrap;
   padding: 50px 0;
+  background: #2a423a;
 }
 
 .contact-section .content-wrapper {
@@ -450,6 +476,7 @@ figure {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background: #527158;
 }
 
 .faq .content-wrapper {
