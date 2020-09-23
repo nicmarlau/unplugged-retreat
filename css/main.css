@@ -143,7 +143,7 @@ img {
 }
  
 figure {
- 
+  margin: 0;
 }
  
 address {
@@ -171,14 +171,12 @@ header, footer {
 	justify-content: center;
 	align-items: center;
   flex-flow: row wrap;
-  width: 100%;
   background-color: #202322;
   color: #fff;
 }
 
 header {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding: 15px 0;
 }
 
 header .content-wrapper {
@@ -186,16 +184,22 @@ header .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 0;
+  width: 90%;
 }
 
-header img {
-  width: 220px;
-  padding-bottom: 10px;
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 header .header-divider {
   width: 100%;
   height: 1px;
+  margin: 10px 0 20px 0;
   background-color: #3a3a3a;
 }
 
@@ -268,7 +272,8 @@ footer .social-icons p {
   justify-content: center;
   flex-flow: row wrap;
   width: 100%;
-  background: #d8c0c0;
+  background: url('../img/hero-bg.jpg') center no-repeat;
+  background-size: cover;
 }
 
 .hero-area .content-wrapper {
@@ -356,8 +361,9 @@ input {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  background: #ac8266;
   width: 100%;
+  background: url('../img/features-bg.jpg') center no-repeat;
+  background-size: cover;
 }
 
 .features .content-wrapper {
@@ -420,6 +426,10 @@ input {
   align-items: center;
   flex-flow: row wrap;
   width: 90%;
+}
+
+.reviews figure {
+  width: 100%;
 }
 
 
@@ -601,6 +611,10 @@ figure {
       padding: 20px 0;
     }
 
+    header figure {
+      width: 30%;
+    }
+
     header img {
       padding-bottom: 0px;
     }
@@ -672,11 +686,16 @@ figure {
     }
 
     .reviews article {
-      width: 90%;
+      width: 100%;
     }
 
-    .reviews article .reviews-content {
-      width: 50%;
+    .reviews-content {
+      width: 45%;
+      padding: 0 10px;
+    }
+
+    .reviews-content figure {
+      padding-right: 20px;
     }
 
     .mission-content {
@@ -718,9 +737,14 @@ figure {
 @media only screen and (min-width: 1200px) {
     /*Desktop styles here*/
 
+    header figure {
+      width: 25%;
+    }
+
     .features article {
       width: 33.3%;
     }
+
 }
 
 
