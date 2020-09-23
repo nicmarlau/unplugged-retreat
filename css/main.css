@@ -86,16 +86,78 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-/* ---------- Fonts --------- */
-h1
+/* General Styles */
+ 
+html {
+  font-size: 16px;
+}
+ 
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+}
+ 
+ul, 
+ol {
+  list-style-type: none;
+  text-transform: uppercase;
+}
+ 
+a {
+  color: #e2e3ed;
+  text-decoration: none;
+  font-weight: 700;
+}
 
-h2
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 3.75em;
+  font-weight: 500;
+  color: #e2e3ed;
+}
+ 
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.25em;
+  font-weight: 500;
+  color: #e2e3ed;
+}
+ 
+h3, 
+h4 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.875em;
+  font-weight: 500;
+  color: #e2e3ed;
+}
+ 
+p {
+  font-size: 1em;
+  font-weight: 400;
+  color: #e2e3ed;
+  line-height: 1.5em;
+}
+ 
+img {
+ 
+}
+ 
+figure {
+ 
+}
+ 
+address {
+  font-size: 1.125em;
+  font-style: normal;
+}
 
-h3
-
-h4
-
-p
+address h4 {
+  font-size: 1.875em;
+}
+ 
+.content-wrapper {
+ 
+}
 
 /* ---------- Base Header, Footer Styles --------- */
 
@@ -155,12 +217,6 @@ header nav ul li {
   list-style-type: none;
   margin: 0;
   padding: 0;
-}
-
-header a {
-  color: #fff;
-  text-decoration: none;
-  font-weight: bold;
 }
 
 footer .content-wrapper {
