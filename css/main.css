@@ -717,6 +717,10 @@ input {
     .mission-content div {
       width: 45%;
     }
+
+    .map figure {
+      padding-bottom: 50%;
+    }
   
     .contact-info {
       display: flex;
@@ -751,6 +755,10 @@ input {
 
     .features article {
       width: 33.3%;
+    }
+
+    .map figure {
+      padding-bottom: 35%;
     }
 
 }
