@@ -258,6 +258,11 @@ footer .social-icons p {
   align-items: center;
 }
 
+.social-icons p i {
+  font-size: 1em;
+  color: #fff;
+}
+
 .copyright {
 
 }
@@ -389,8 +394,9 @@ input {
   text-align: center;
 }
 
-.fontawesome-icon {
-  padding-bottom: 40px;
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
 }
 
 .features-item-description
