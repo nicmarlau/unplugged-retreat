@@ -219,14 +219,15 @@ header nav {
 header nav ul {
   display: flex;
   justify-content: center;
-  width: 100%;
+  align-items: center;
+  flex-flow: row wrap;
+  padding: 0;
 }
 
 header nav ul li {
   list-style-type: none;
   margin: 0;
-  padding: 0;
-  width: 25%;
+  width: 50%;
 }
 
 footer {
@@ -716,8 +717,8 @@ input {
     }
 
     header nav ul li {
-      padding-left: 40px;
       font-size: 1em;
+      padding-left: 40px;
     }
 
     
