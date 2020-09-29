@@ -190,7 +190,7 @@ header .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
   margin: 0;
-  width: 100%;
+  width: 90%;
 }
 
 header figure {
@@ -210,7 +210,7 @@ header .header-divider {
 
 header nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-flow: row wrap;
   width: 100%;
@@ -218,7 +218,7 @@ header nav {
 
 header nav ul {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
   padding: 0;
@@ -226,8 +226,7 @@ header nav ul {
 
 header nav ul li {
   list-style-type: none;
-  margin: 0;
-  width: 50%;
+  padding: 0 15px;
 }
 
 footer {
@@ -709,16 +708,19 @@ input {
       justify-content: flex-end;
       align-items: center;
       flex-flow: row wrap;
-      width: 25%;
+      width: 50%;
     }
 
     header nav ul {
+      display: flex;
       justify-content: space-between;
+      flex-flow: row wrap;
     }
 
     header nav ul li {
       font-size: 1em;
-      padding-left: 40px;
+      padding: 0;
+      width: 25%;
     }
 
     
